@@ -1,6 +1,7 @@
 from fastapi import FastAPI
-from HW2.src.controllers.user import router as user_router
 from tortoise.contrib.fastapi import register_tortoise
+
+from HW2.src.controllers.user import router as user_router
 
 app = FastAPI(prefix="/api")
 app.include_router(user_router)

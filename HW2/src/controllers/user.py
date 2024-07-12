@@ -1,4 +1,5 @@
 from fastapi import APIRouter, HTTPException
+
 from HW2.src.models.user import User_Pydantic, UserIn_Pydantic
 from HW2.src.services.user import UserService
 
