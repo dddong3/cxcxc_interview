@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cxcxcx-interview"
+version = "0.1.0"
+description = ""
+authors = ["dong3 <79492436+c4t0212@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
